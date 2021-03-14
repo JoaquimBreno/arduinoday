@@ -31,18 +31,19 @@ header {
 }
 
 #logo2 {
-  display: none;
+  display: flex;
   justify-content: right;
   width: 50%;
 }
 
 #imagem1 img {
-  width: 150px;
-  margin-left: 330px;
+  width: 120px;
+  margin-left: 430px;
+  margin-top: 7px;
 }
 #imagem2 img {
-  margin-top: 2px;
-  width: 140px;
+  margin-top: 15px;
+  width: 100px;
 }
 
 .section {
@@ -71,18 +72,22 @@ header {
   display: flex;
   justify-content: center;
 }
-#inscreva-se {
-  display: flex;
-  width: 150px;
-  height: 40px;
-  justify-content: center;
+.botao_inscreva-se {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
   background-color: #f26b2d;
-  margin: 15px 0;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
-#inscreva-se a {
+
+.botao_inscreva-se:hover {
+  background-color: #aa481a;
+  transition: 1s;
+}
+.botao_inscreva-se a {
   text-decoration: none;
-  color: #086f71;
-  line-height: 40px;
+  color: white;
 }
 #imagem {
   display: flex;
@@ -103,24 +108,68 @@ header {
 #informaçoes2 p:nth-child(1) {
   font-size: 24px;
 }
-
+.box {
+  margin-top: 70px;
+}
+.titulo {
+  font-weight: bold;
+  margin-left: 50px;
+  font-size: 20px;
+}
 #center3 {
   width: 100%;
   height: 280px;
   background-color: #d8e6e6;
-  margin-bottom: 150px;
-  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
 }
-#texto p:nth-child(1) {
-  font-weight: bold;
-  font-size: 20px;
-  padding: 10px;
+#center4 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #d8e6e6;
+  border-radius: 8px;
 }
+#center5 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #d8e6e6;
+  border-radius: 8px;
+}
+#center6 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #d8e6e6;
+  border-radius: 8px;
+}
+
 #texto p {
-  padding: 10px;
+  padding: 20px;
+}
+#programaçao {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+#programaçao h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+#programaçao table th {
+  margin-bottom: 30px;
+  text-align: left;
+}
+.horarios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 40px;
+  background-color: #8dd0d2;
+  border-radius: 20px;
 }
 #redes_sociais {
-  padding: 0 45px;
+  padding: 20px 45px;
 }
 #redes_sociais_icones {
   padding: 0 45px;
@@ -135,6 +184,6 @@ footer {
 table th:nth-child(1) {
   padding: 0 35px 0 0;
 }
-table th:nth-child(4) {
+table th:nth-child(5) {
   padding: 0 35px 0 35px;
 }
