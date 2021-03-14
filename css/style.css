@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #086f71;
+}
+#margin_global {
+  margin: 0 200px;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-image: url(../img/azul.png);
+}
+
+#center {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#logo {
+  width: 50%;
+}
+#logo img {
+  width: 180px;
+  margin-top: 8px;
+  margin-left: 20px;
+}
+
+#logo2 {
+  display: none;
+  justify-content: right;
+  width: 50%;
+}
+
+#imagem1 img {
+  width: 150px;
+  margin-left: 330px;
+}
+#imagem2 img {
+  margin-top: 2px;
+  width: 140px;
+}
+
+.section {
+  width: 100%;
+}
+#alinhador {
+  display: flex;
+  justify-content: center;
+}
+.informaçoes {
+  width: 100%;
+}
+#data {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 30px 0;
+  font-size: 13px;
+}
+#evento {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin: 20px 0;
+}
+#center2 {
+  display: flex;
+  justify-content: center;
+}
+#inscreva-se {
+  display: flex;
+  width: 150px;
+  height: 40px;
+  justify-content: center;
+  background-color: #f26b2d;
+  margin: 15px 0;
+}
+#inscreva-se a {
+  text-decoration: none;
+  color: #086f71;
+  line-height: 40px;
+}
+#imagem {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+  align-items: center;
+}
+#bg {
+  width: 600px;
+  height: 338px;
+  background-image: url(../img/arduino2.jpg);
+  margin-bottom: 30px;
+}
+#informaçoes2 {
+  width: 55%;
+}
+#informaçoes2 p:nth-child(1) {
+  font-size: 24px;
+}
+
+#center3 {
+  width: 100%;
+  height: 280px;
+  background-color: #d8e6e6;
+  margin-bottom: 150px;
+  margin-top: 100px;
+}
+#texto p:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+#texto p {
+  padding: 10px;
+}
+#redes_sociais {
+  padding: 0 45px;
+}
+#redes_sociais_icones {
+  padding: 0 45px;
+}
+
+footer {
+  width: 100%;
+  height: 65px;
+  background-color: #8dd0d2;
+  margin-top: 100px;
+}
+table th:nth-child(1) {
+  padding: 0 35px 0 0;
+}
+table th:nth-child(4) {
+  padding: 0 35px 0 35px;
+}
